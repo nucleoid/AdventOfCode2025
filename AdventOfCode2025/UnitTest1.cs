@@ -7,13 +7,13 @@ namespace AdventOfCode2025
         [Fact]
         public void Test1()
         {
-            Dial testDial = new Dial(input);
+            Dial testDial = new Dial(input, 2);
             testDial.SpinThatShit();
 
-            Assert.Equal(0, testDial.PasswordCount);
+            Assert.Equal(3, testDial.PasswordCount);
         }
 
-        public class Dial(string input)
+        public class Dial(string input, int version)
         {
             private readonly string[] _allInputs = input.Split(Environment.NewLine);
             private int _index = 50;
@@ -40,6 +40,10 @@ namespace AdventOfCode2025
                             Minus();
                         }
                     }
+                    if (version == 1)
+                    {
+                        Check();
+                    }
                 }
             }
 
@@ -50,7 +54,11 @@ namespace AdventOfCode2025
                 {
                     _index = 0;
                 }
-                Check();
+
+                if (version == 2)
+                {
+                    Check();
+                }
             }
 
             private void Minus()
@@ -60,7 +68,11 @@ namespace AdventOfCode2025
                 {
                     _index = 99;
                 }
-                Check();
+
+                if (version == 2)
+                {
+                    Check();
+                }
             }
 
             private void Check()

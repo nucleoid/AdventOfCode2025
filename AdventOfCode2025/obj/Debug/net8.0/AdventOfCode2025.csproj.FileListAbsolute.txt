@@ -94,3 +94,4 @@ C:\Users\mstat\source\repos\AdventOfCode2025\AdventOfCode2025\obj\Debug\net8.0\r
 C:\Users\mstat\source\repos\AdventOfCode2025\AdventOfCode2025\obj\Debug\net8.0\AdventOfCode2025.pdb
 C:\Users\mstat\source\repos\AdventOfCode2025\AdventOfCode2025\obj\Debug\net8.0\AdventOfCode2025.genruntimeconfig.cache
 C:\Users\mstat\source\repos\AdventOfCode2025\AdventOfCode2025\obj\Debug\net8.0\ref\AdventOfCode2025.dll
+C:\Users\mstat\source\repos\AdventOfCode2025\AdventOfCode2025\obj\Debug\net8.0\AdventOfCode2025.sourcelink.json
