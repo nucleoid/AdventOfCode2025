@@ -2,15 +2,24 @@ using Xunit;
 
 namespace AdventOfCode2025
 {
-    public class Tests
+    public class Day1
     {
         [Fact]
-        public void Test1()
+        public void Part1()
+        {
+            Dial testDial = new Dial(input, 1);
+            testDial.SpinThatShit();
+
+            Assert.Equal(964, testDial.PasswordCount);
+        }
+
+        [Fact]
+        public void Part2()
         {
             Dial testDial = new Dial(input, 2);
             testDial.SpinThatShit();
 
-            Assert.Equal(3, testDial.PasswordCount);
+            Assert.Equal(5872, testDial.PasswordCount);
         }
 
         public class Dial(string input, int version)
