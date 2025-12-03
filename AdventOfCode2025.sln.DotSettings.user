@@ -18,5 +18,8 @@
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::ACA3521F-493B-4021-8238-5FA18BF58469::net8.0::AdventOfCode2025.Day2&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::ACA3521F-493B-4021-8238-5FA18BF58469::net8.0::AdventOfCode2025.Day1&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::ACA3521F-493B-4021-8238-5FA18BF58469::net8.0::AdventOfCode2025.Day3.Part1&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::ACA3521F-493B-4021-8238-5FA18BF58469::net8.0::AdventOfCode2025.Day3.Part2&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::ACA3521F-493B-4021-8238-5FA18BF58469::net8.0::AdventOfCode2025.Day3&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

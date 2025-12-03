@@ -28,6 +28,7 @@ namespace AdventOfCode2025
         private long SumInvalidProductIds(string regex)
         {
             long invalidSum = 0;
+            Regex rgx = new(regex, RegexOptions.Compiled);
             using var file = new StreamReader(TestDataPath);
             while (file.ReadLine() is { } line)
             {
@@ -40,7 +41,7 @@ namespace AdventOfCode2025
 
                     for (long i = start; i <= end; i++)
                     {
-                        if (IsInValid(i, regex))
+                        if (IsInValid(i, rgx))
                         {
                             invalidSum += i;
                         }
@@ -51,10 +52,10 @@ namespace AdventOfCode2025
             return invalidSum;
         }
 
-        private bool IsInValid(long num, string regex)
+        private bool IsInValid(long num, Regex rgx)
         {
             string converted = num.ToString();
-            return Regex.IsMatch(converted, regex);
+            return rgx.IsMatch(converted);
         }
     }
 }
