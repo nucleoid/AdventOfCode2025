@@ -5,6 +5,31 @@ VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode2025", "AdventOfCode2025\AdventOfCode2025.csproj", "{ACA3521F-493B-4021-8238-5FA18BF58469}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Inputs", "Inputs", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		Inputs\day2TestData.csv = Inputs\day2TestData.csv
+		Inputs\exampleInputDay4.txt = Inputs\exampleInputDay4.txt
+		Inputs\exampleInputDay5.txt = Inputs\exampleInputDay5.txt
+		Inputs\exampleInputDay6.txt = Inputs\exampleInputDay6.txt
+		Inputs\exampleInputDay7.txt = Inputs\exampleInputDay7.txt
+		Inputs\exampleInputDay8.txt = Inputs\exampleInputDay8.txt
+		Inputs\exampleInputDay9.txt = Inputs\exampleInputDay9.txt
+		Inputs\exampleInputDay10.txt = Inputs\exampleInputDay10.txt
+		Inputs\exampleInputDay11.txt = Inputs\exampleInputDay11.txt
+		Inputs\exampleInputDay12.txt = Inputs\exampleInputDay12.txt
+		Inputs\inputDay3.txt = Inputs\inputDay3.txt
+		Inputs\inputDay3Example.txt = Inputs\inputDay3Example.txt
+		Inputs\inputDay4.txt = Inputs\inputDay4.txt
+		Inputs\inputDay5.txt = Inputs\inputDay5.txt
+		Inputs\inputDay6.txt = Inputs\inputDay6.txt
+		Inputs\inputDay7.txt = Inputs\inputDay7.txt
+		Inputs\inputDay8.txt = Inputs\inputDay8.txt
+		Inputs\inputDay9.txt = Inputs\inputDay9.txt
+		Inputs\inputDay10.txt = Inputs\inputDay10.txt
+		Inputs\inputDay11.txt = Inputs\inputDay11.txt
+		Inputs\inputDay12.txt = Inputs\inputDay12.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

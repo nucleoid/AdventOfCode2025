@@ -7,7 +7,7 @@ namespace AdventOfCode2025
     {
         private const string Version1Regex = "^(?:(\\d)\\1|(\\d{2,})\\2)$";
         private const string Version2Regex = "^(?:(\\d)\\1+|(\\d{2,})\\2+)$";
-        private const string TestDataPath = "C:\\Users\\mstat\\source\\repos\\AdventOfCode2025\\day2TestData.csv";
+        private const string TestDataPath = "C:\\Users\\mstat\\source\\repos\\AdventOfCode2025\\Inputs\\day2TestData.csv";
 
         [Fact]
         public void Part1()

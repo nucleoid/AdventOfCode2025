@@ -4,14 +4,14 @@ namespace AdventOfCode2025
 {
     public class Day3
     {
-        private const string TestDataPath = "C:\\Users\\mstat\\source\\repos\\AdventOfCode2025\\inputDay3.txt";
+        private const string TestDataPath = "C:\\Users\\mstat\\source\\repos\\AdventOfCode2025\\Inputs\\inputDay3.txt";
 
         [Fact]
         public void Part1()
         {
             var joltage = CalculateJoltage();
 
-            Assert.Equal(357, joltage);
+            Assert.Equal(17332, joltage);
         }
 
         [Fact]
@@ -19,8 +19,7 @@ namespace AdventOfCode2025
         {
             var joltage = CalculateJoltage2();
 
-            Assert.Equal(joltage, 172366781546707L);
-            Assert.True(joltage > 172366781546707L);
+            Assert.Equal(172516781546707, joltage);
         }
 
         private int CalculateJoltage()
