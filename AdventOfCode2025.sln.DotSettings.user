@@ -15,5 +15,16 @@
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=bdc18e44_002D2e24_002D45a8_002D91be_002D511ded7f20ab/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1 #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;Project Location="C:\Users\mstat\source\repos\AdventOfCode2025\AdventOfCode2025" Presentation="&amp;lt;AdventOfCode2025&amp;gt;" /&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;Not&gt;&#xD;
+      &lt;TestAncestor&gt;&#xD;
+        &lt;TestId&gt;xUnit::ACA3521F-493B-4021-8238-5FA18BF58469::net8.0::AdventOfCode2025.Day5.Part1&lt;/TestId&gt;&#xD;
+      &lt;/TestAncestor&gt;&#xD;
+    &lt;/Not&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;xUnit::ACA3521F-493B-4021-8238-5FA18BF58469::net8.0::AdventOfCode2025.Day5.Part1&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::ACA3521F-493B-4021-8238-5FA18BF58469::net8.0::AdventOfCode2025.Day5.Part1.Part1(input: "C:\\Users\\mstat\\source\\repos\\AdventOfCode2025\"···, expected: 3)&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::ACA3521F-493B-4021-8238-5FA18BF58469::net8.0::AdventOfCode2025.Day5.Part1.Part1(input: "C:\\Users\\mstat\\source\\repos\\AdventOfCode2025\"···, expected: 1480)&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+  &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
